@@ -1,0 +1,45 @@
+.hero-image {
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 580px;
+  margin-bottom: 10px;
+
+  .hero-item-links {
+    text-align: center;
+
+    a {
+      color: #2997ff;
+      margin-right: 35px;
+      margin-top: 20px;
+      font-size: 17px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.hero-image-iphone14pro {
+  background-image: url("../../assets/iphone14pro.jpg");
+
+  .hero-item-links {
+    padding-top: 150px;
+  }
+}
+.hero-image-iphone14 {
+  background-image: url("../../assets/iphone14.jpg");
+
+  .hero-item-links {
+    padding-top: 150px;
+  }
+}
+.hero-image-appletv {
+  background-image: url("../../assets/appletv.jpg");
+
+  .hero-item-links {
+    padding-top: 550px;
+  }
+}

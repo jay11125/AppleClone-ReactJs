@@ -1,0 +1,45 @@
+.gallery-item {
+  margin: 10px;
+  position: relative;
+
+  .gallery-item-links {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 230px;
+
+    a {
+      color: #2997ff;
+      margin-left: 35px;
+      font-size: 17px;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .gallery-item-ipadpro-links {
+    top: 170px;
+  }
+  .gallery-item-ipad-links {
+    top: 160px;
+  }
+  .gallery-item-watchultra-links {
+    top: 170px;
+  }
+  .gallery-item-watch8-links {
+    top: 170px;
+  }
+  .gallery-item-airpodspro-links {
+    top: 145px;
+  }
+  .gallery-item-applecard-links {
+    top: 170px;
+  }
+
+  .gallery-item-image {
+    width: 650px;
+    height: 600px;
+  }
+}
